@@ -1,0 +1,577 @@
+{
+    "titulo": "Proyecto demo",
+    "ancho": 640,
+    "alto": 480,
+    "escena_inicial": 1,
+    "imagenes": [
+        {
+            "nombre": "shf1",
+            "contenido": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAeCAYAAABe3VzdAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAABh0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMS42/U4J6AAAAMlJREFUWEetzrEJA0EQBEHln+CH8/KHWhC0jHIWbvo+7/v+5Hme9592/8KjKFLs/oVHUaTY/QuPokix+xceRZFi9y88iiLF7l94FEWK3b/wKIoUu3/hURQpdv/CoyhS7P6Fx0KfKRgpFCkYKRQpGCkUKRgpFCkYKRQpGCkUKRgpFCkYKRQpGCkUKRgRPS52/8KjKFLs/oVHUaTY/QuPokix+xceRZFi9y88iiLF7l94FEWK3b/wKIoUu3/hURQpdv/CoyhS7L69ny8Y2j860fedKAAAAABJRU5ErkJggg=="
+        },
+        {
+            "nombre": "shf2",
+            "contenido": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAeCAYAAABe3VzdAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAABh0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMS42/U4J6AAAALJJREFUWEftzjEKw1AAAtDc/4I5zu8uTwhYaIcMb3FQr3POI/d9n2/K/oahaGSR/Q1D0cgi+xuGopFF9jcMRSOL7G8YikYW2d8wFI0ssr9hKBpZZH/DUDSyyP6GoWhkkf3Nz4afeg+u3oOr9+DqPbj6/4MKRWcW2d8wFI0ssr9hKBpZZH/DUDSyyP6GoWhkkf0NQ9HIIvsbhqKRRfY3DEUji+xvGIpGFtnfMBSNLLLfzvUBEEk/OrE7y4YAAAAASUVORK5CYII="
+        },
+        {
+            "nombre": "walkground",
+            "contenido": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA+gAAAPoCAMAAAB6fSTWAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAMAUExURQAADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMXDuD4AAAAJcEhZcwAADsMAAA7DAcdvqGQAAAPhSURBVHhe7cEBDQAAAMKg909tDwcEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAnKoBRwkAAYGYx+cAAAAASUVORK5CYII="
+        },
+        {
+            "nombre": "fill",
+            "contenido": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA+gAAAIwCAYAAAAVuUESAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAYdEVYdFNvZnR3YXJlAHBhaW50Lm5ldCA0LjEuNv1OCegAAAy0SURBVHhe7cghAcAwAASxOqjJ+tcwA49vJCAk55z7AAAAgL/NBAAAAFozAQAAgNZMAAAAoDUTAAAAaM0EAAAAWjMBAACA1kwAAACgNRMAAABozQQAAABaMwEAAIDWTAAAAKA1EwAAAGjNBAAAAFozAQAAgNZMAAAAoDUTAAAAaM0EAAAAWjMBAACA1kwAAACgNRMAAABozQQAAABaMwEAAIDWTAAAAKA1EwAAAGjNBAAAAFozAQAAgNZMAAAAoDUTAAAAaM0EAAAAWjMBAACA1kwAAACgNRMAAABozQQAAABaMwEAAIDWTAAAAKA1EwAAAGjNBAAAAFozAQAAgNZMAAAAoDUTAAAAaM0EAAAAWjMBAACA1kwAAACgNRMAAABozQQAAABaMwEAAIDWTAAAAKA1EwAAAGjNBAAAAFozAQAAgNZMAAAAoDUTAAAAaM0EAAAAWjMBAACA1kwAAACgNRMAAABozQQAAABaMwEAAIDWTAAAAKA1EwAAAGjNBAAAAFozAQAAgNZMAAAAoDUTAAAAaM0EAAAAWjMBAACA1kwAAACgNRMAAABozQQAAABaMwEAAIDWTAAAAKA1EwAAAGjNBAAAAFozAQAAgNZMAAAAoDUTAAAAaM0EAAAAWjMBAACA1kwAAACgNRMAAABozQQAAABaMwEAAIDWTAAAAKA1EwAAAGjNBAAAAFozAQAAgNZMAAAAoDUTAAAAaM0EAAAAWjMBAACA1kwAAACgNRMAAABozQQAAABaMwEAAIDWTAAAAKA1EwAAAGjNBAAAAFozAQAAgNZMAAAAoDUTAAAAaM0EAAAAWjMBAACA1kwAAACgNRMAAABozQQAAABaMwEAAIDWTAAAAKA1EwAAAGjNBAAAAFozAQAAgNZMAAAAoDUTAAAAaM0EAAAAWjMBAACA1kwAAACgNRMAAABozQQAAABaMwEAAIDWTAAAAKA1EwAAAGjNBAAAAFozAQAAgNZMAAAAoDUTAAAAaM0EAAAAWjMBAACA1kwAAACgNRMAAABozQQAAABaMwEAAIDWTAAAAKA1EwAAAGjNBAAAAFozAQAAgNZMAAAAoDUTAAAAaM0EAAAAWjMBAACA1kwAAACgNRMAAABozQQAAABaMwEAAIDWTAAAAKA1EwAAAGjNBAAAAFozAQAAgNZMAAAAoDUTAAAAaM0EAAAAWjMBAACA1kwAAACgNRMAAABozQQAAABaMwEAAIDWTAAAAKA1EwAAAGjNBAAAAFozAQAAgNZMAAAAoDUTAAAAaM0EAAAAWjMBAACA1kwAAACgNRMAAABozQQAAABaMwEAAIDWTAAAAKA1EwAAAGjNBAAAAFozAQAAgNZMAAAAoDUTAAAAaM0EAAAAWjMBAACA1kwAAACgNRMAAABozQQAAABaMwEAAIDWTAAAAKA1EwAAAGjNBAAAAFozAQAAgNZMAAAAoDUTAAAAaM0EAAAAWjMBAACA1kwAAACgNRMAAABozQQAAABaMwEAAIDWTAAAAKA1EwAAAGjNBAAAAFozAQAAgNZMAAAAoDUTAAAAaM0EAAAAWjMBAACA1kwAAACgNRMAAABozQQAAABaMwEAAIDWTAAAAKA1EwAAAGjNBAAAAFozAQAAgNZMAAAAoDUTAAAAaM0EAAAAWjMBAACA1kwAAACgNRMAAABozQQAAABaMwEAAIDWTAAAAKA1EwAAAGjNBAAAAFozAQAAgNZMAAAAoDUTAAAAaM0EAAAAWjMBAACA1kwAAACgNRMAAABozQQAAABaMwEAAIDWTAAAAKA1EwAAAGjNBAAAAFozAQAAgNZMAAAAoDUTAAAAaM0EAAAAWjMBAACA1kwAAACgNRMAAABozQQAAABaMwEAAIDWTAAAAKA1EwAAAGjNBAAAAFozAQAAgNZMAAAAoDUTAAAAaM0EAAAAWjMBAACA1kwAAACgNRMAAABozQQAAABaMwEAAIDWTAAAAKA1EwAAAGjNBAAAAFozAQAAgNZMAAAAoDUTAAAAaM0EAAAAWjMBAACA1kwAAACgNRMAAABozQQAAABaMwEAAIDWTAAAAKA1EwAAAGjNBAAAAFozAQAAgNZMAAAAoDUTAAAAaM0EAAAAWjMBAACA1kwAAACgNRMAAABozQQAAABaMwEAAIDWTAAAAKA1EwAAAGjNBAAAAFozAQAAgNZMAAAAoDUTAAAAaM0EAAAAWjMBAACA1kwAAACgNRMAAABozQQAAABaMwEAAIDWTAAAAKA1EwAAAGjNBAAAAFozAQAAgNZMAAAAoDUTAAAAaM0EAAAAWjMBAACA1kwAAACgNRMAAABozQQAAABaMwEAAIDWTAAAAKA1EwAAAGjNBAAAAFozAQAAgNZMAAAAoDUTAAAAaM0EAAAAWjMBAACA1kwAAACgNRMAAABozQQAAABaMwEAAIDWTAAAAKA1EwAAAGjNBAAAAFozAQAAgNZMAAAAoDUTAAAAaM0EAAAAWjMBAACA1kwAAACgNRMAAABozQQAAABaMwEAAIDWTAAAAKA1EwAAAGjNBAAAAFozAQAAgNZMAAAAoDUTAAAAaM0EAAAAWjMBAACA1kwAAACgNRMAAABozQQAAABaMwEAAIDWTAAAAKA1EwAAAGjNBAAAAFozAQAAgNZMAAAAoDUTAAAAaM0EAAAAWjMBAACA1kwAAACgNRMAAABozQQAAABaMwEAAIDWTAAAAKA1EwAAAGjNBAAAAFozAQAAgNZMAAAAoDUTAAAAaM0EAAAAWjMBAACA1kwAAACgNRMAAABozQQAAABaMwEAAIDWTAAAAKA1EwAAAGjNBAAAAFozAQAAgNZMAAAAoDUTAAAAaM0EAAAAWjMBAACA1kwAAACgNRMAAABozQQAAABaMwEAAIDWTAAAAKA1EwAAAGjNBAAAAFozAQAAgNZMAAAAoDUTAAAAaM0EAAAAWjMBAACA1kwAAACgNRMAAABozQQAAABaMwEAAIDWTAAAAKA1EwAAAGjNBAAAAFozAQAAgNZMAAAAoDUTAAAAaM0EAAAAWjMBAACA1kwAAACgNRMAAABozQQAAABaMwEAAIDWTAAAAKA1EwAAAGjNBAAAAFozAQAAgNZMAAAAoDUTAAAAaM0EAAAAWjMBAACA1kwAAACgNRMAAABozQQAAABaMwEAAIDWTAAAAKA1EwAAAGjNBAAAAFozAQAAgNZMAAAAoDUTAAAAaM0EAAAAWjMBAACA1kwAAACgNRMAAABozQQAAABaMwEAAIDWTAAAAKA1EwAAAGjNBAAAAFozAQAAgNZMAAAAoDUTAAAAaM0EAAAAWjMBAACA1kwAAACgNRMAAABozQQAAABaMwEAAIDWTAAAAKA1EwAAAGjNBAAAAFozAQAAgNZMAAAAoDUTAAAAaM0EAAAAWjMBAACA1kwAAACgNRMAAABozQQAAABaMwEAAIDWTAAAAKA1EwAAAGjNBAAAAFozAQAAgNZMAAAAoDUTAAAAaM0EAAAAWjMBAACA1kwAAACgNRMAAABozQQAAABaMwEAAIDWTAAAAKA1EwAAAGjNBAAAAFozAQAAgNZMAAAAoDUTAAAAaM0EAAAAWjMBAACA1kwAAACgNRMAAABozQQAAABaMwEAAIDWTAAAAKA1EwAAAGjNBAAAAFozAQAAgNZMAAAAoDUTAAAAaM0EAAAAWjMBAACA1kwAAACgNRMAAABozQQAAABaMwEAAIDWTAAAAKA1EwAAAGjNBAAAAFozAQAAgNZMAAAAoDUTAAAAaM0EAAAAWjMBAACA1kwAAACgNRMAAABozQQAAABaMwEAAIDWTAAAAKA1EwAAAGjNBAAAAFozAQAAgNZMAAAAoDUTAAAAaM0EAAAAWjMBAACA1kwAAACgNRMAAABozQQAAABaMwEAAIDWTAAAAKA1EwAAAGjNBAAAAFozAQAAgNZMAAAAoDUTAAAAaM0EAAAAWjMBAACA1kwAAACgNRMAAABozQQAAABaMwEAAIDWTAAAAKA1EwAAAGjNBAAAAFozAQAAgNZMAAAAoDUTAAAAaM0EAAAAWjMBAACA1kwAAACgNRMAAABozQQAAABaMwEAAIDWTAAAAKA1EwAAAGjNBAAAAFozAQAAgNZMAAAAoDUTAAAAaM0EAAAAWjMBAACA1kwAAACgNRMAAABozQQAAABaMwEAAIDWTAAAAKA1EwAAAGjNBAAAAFozAQAAgNZMAAAAoDUTAAAAaM0EAAAAWjMBAACA1kwAAACgNRMAAABozQQAAABaMwEAAIDWTAAAAKA1EwAAAGjNBAAAAFozAQAAgNZMAAAAoDUTAAAAaM0EAAAAWjMBAACA1kwAAACgc98H1jzkC0HtQhwAAAAASUVORK5CYII="
+        },
+        {
+            "nombre": "cube",
+            "contenido": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAIAAAACUFjqAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAYSURBVChTY7x+/ToDbsAEpXGAkSnNwAAAFYMCmYTKhToAAAAASUVORK5CYII="
+        },
+        {
+            "nombre": "background",
+            "contenido": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAfQAAAH0CAMAAAD8CC+4AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAMAUExURQAADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMXDuD4AAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEJSURBVHhe7cEBAQAAAIIg/69uSEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHClBtKxAAFptY5wAAAAAElFTkSuQmCC"
+        }
+    ],
+    "animaciones": [
+        {
+            "nombre": "mini_explosion",
+            "cuadros": [
+                {
+                    "nombre": "imagenes:mini-explosion/explosion_0",
+                    "sprite": "imagenes-mini-explosion-explosion_0"
+                },
+                {
+                    "nombre": "imagenes:mini-explosion/explosion_1",
+                    "sprite": "imagenes-mini-explosion-explosion_1"
+                },
+                {
+                    "nombre": "imagenes:mini-explosion/explosion_2",
+                    "sprite": "imagenes-mini-explosion-explosion_2"
+                },
+                {
+                    "nombre": "imagenes:mini-explosion/explosion_3",
+                    "sprite": "imagenes-mini-explosion-explosion_3"
+                },
+                {
+                    "nombre": "imagenes:mini-explosion/explosion_4",
+                    "sprite": "imagenes-mini-explosion-explosion_4"
+                },
+                {
+                    "nombre": "imagenes:mini-explosion/explosion_5",
+                    "sprite": "imagenes-mini-explosion-explosion_5"
+                },
+                {
+                    "nombre": "imagenes:mini-explosion/explosion_6",
+                    "sprite": "imagenes-mini-explosion-explosion_6"
+                }
+            ],
+            "velocidad": "30"
+        },
+        {
+            "nombre": "explosion",
+            "cuadros": [
+                {
+                    "nombre": "imagenes:explosion/explosion_001",
+                    "sprite": "imagenes-explosion-explosion_001"
+                },
+                {
+                    "nombre": "imagenes:explosion/explosion_002",
+                    "sprite": "imagenes-explosion-explosion_002"
+                },
+                {
+                    "nombre": "imagenes:explosion/explosion_003",
+                    "sprite": "imagenes-explosion-explosion_003"
+                },
+                {
+                    "nombre": "imagenes:explosion/explosion_004",
+                    "sprite": "imagenes-explosion-explosion_004"
+                },
+                {
+                    "nombre": "imagenes:explosion/explosion_005",
+                    "sprite": "imagenes-explosion-explosion_005"
+                },
+                {
+                    "nombre": "imagenes:explosion/explosion_006",
+                    "sprite": "imagenes-explosion-explosion_006"
+                },
+                {
+                    "nombre": "imagenes:explosion/explosion_007",
+                    "sprite": "imagenes-explosion-explosion_007"
+                },
+                {
+                    "nombre": "imagenes:explosion/explosion_008",
+                    "sprite": "imagenes-explosion-explosion_008"
+                },
+                {
+                    "nombre": "imagenes:explosion/explosion_009",
+                    "sprite": "imagenes-explosion-explosion_009"
+                },
+                {
+                    "nombre": "imagenes:explosion/explosion_010",
+                    "sprite": "imagenes-explosion-explosion_010"
+                },
+                {
+                    "nombre": "imagenes:explosion/explosion_011",
+                    "sprite": "imagenes-explosion-explosion_011"
+                },
+                {
+                    "nombre": "imagenes:explosion/explosion_012",
+                    "sprite": "imagenes-explosion-explosion_012"
+                },
+                {
+                    "nombre": "imagenes:explosion/explosion_013",
+                    "sprite": "imagenes-explosion-explosion_013"
+                },
+                {
+                    "nombre": "imagenes:explosion/explosion_014",
+                    "sprite": "imagenes-explosion-explosion_014"
+                },
+                {
+                    "nombre": "imagenes:explosion/explosion_015",
+                    "sprite": "imagenes-explosion-explosion_015"
+                }
+            ],
+            "velocidad": "30"
+        },
+        {
+            "nombre": "hombre_pixel_camina",
+            "cuadros": [
+                {
+                    "nombre": "imagenes:pixelados/pixel_player_1",
+                    "sprite": "imagenes-pixelados-pixel_player_1"
+                },
+                {
+                    "nombre": "imagenes:pixelados/pixel_player_2",
+                    "sprite": "imagenes-pixelados-pixel_player_2"
+                }
+            ],
+            "velocidad": "30"
+        },
+        {
+            "nombre": "hombre_pixel_parado",
+            "cuadros": [
+                {
+                    "nombre": "imagenes:pixelados/pixel_player_0",
+                    "sprite": "imagenes-pixelados-pixel_player_0"
+                }
+            ],
+            "velocidad": 10
+        },
+        {
+            "nombre": "fantasma_azul_camina",
+            "cuadros": [
+                {
+                    "nombre": "imagenes:pacman/fantasma_azul_0",
+                    "sprite": "imagenes-pacman-fantasma_azul_0"
+                },
+                {
+                    "nombre": "imagenes:pacman/fantasma_azul_1",
+                    "sprite": "imagenes-pacman-fantasma_azul_1"
+                }
+            ],
+            "velocidad": "30"
+        },
+        {
+            "nombre": "fantasma_camina",
+            "cuadros": [
+                {
+                    "nombre": "imagenes:pacman/fantasma_6",
+                    "sprite": "imagenes-pacman-fantasma_6"
+                },
+                {
+                    "nombre": "imagenes:pacman/fantasma_7",
+                    "sprite": "imagenes-pacman-fantasma_7"
+                }
+            ],
+            "velocidad": "30"
+        },
+        {
+            "nombre": "moneda",
+            "cuadros": [
+                {
+                    "nombre": "imagenes:monedas/moneda_0",
+                    "sprite": "imagenes-monedas-moneda_0"
+                },
+                {
+                    "nombre": "imagenes:monedas/moneda_1",
+                    "sprite": "imagenes-monedas-moneda_1"
+                },
+                {
+                    "nombre": "imagenes:monedas/moneda_2",
+                    "sprite": "imagenes-monedas-moneda_2"
+                },
+                {
+                    "nombre": "imagenes:monedas/moneda_3",
+                    "sprite": "imagenes-monedas-moneda_3"
+                },
+                {
+                    "nombre": "imagenes:monedas/moneda_4",
+                    "sprite": "imagenes-monedas-moneda_4"
+                },
+                {
+                    "nombre": "imagenes:monedas/moneda_5",
+                    "sprite": "imagenes-monedas-moneda_5"
+                },
+                {
+                    "nombre": "imagenes:monedas/moneda_6",
+                    "sprite": "imagenes-monedas-moneda_6"
+                },
+                {
+                    "nombre": "imagenes:monedas/moneda_7",
+                    "sprite": "imagenes-monedas-moneda_7"
+                }
+            ],
+            "velocidad": "30"
+        },
+        {
+            "nombre": "pacman_come",
+            "cuadros": [
+                {
+                    "nombre": "imagenes:pacman/pacman_4",
+                    "sprite": "imagenes-pacman-pacman_4"
+                },
+                {
+                    "nombre": "imagenes:pacman/pacman_5",
+                    "sprite": "imagenes-pacman-pacman_5"
+                },
+                {
+                    "nombre": "imagenes:pacman/pacman_6",
+                    "sprite": "imagenes-pacman-pacman_6"
+                }
+            ],
+            "velocidad": "40"
+        },
+        {
+            "nombre": "pacman_espera",
+            "cuadros": [
+                {
+                    "nombre": "imagenes:pacman/pacman_4",
+                    "sprite": "imagenes-pacman-pacman_4"
+                }
+            ],
+            "velocidad": 10
+        },
+        {
+            "nombre": "nave_girando_a_la_derecha",
+            "cuadros": [
+                {
+                    "nombre": "imagenes:nave/nave_derecha_1",
+                    "sprite": "imagenes-nave-nave_derecha_1"
+                },
+                {
+                    "nombre": "imagenes:nave/nave_derecha_2",
+                    "sprite": "imagenes-nave-nave_derecha_2"
+                }
+            ],
+            "velocidad": "20"
+        },
+        {
+            "nombre": "nave_girando_a_la_izquierda",
+            "cuadros": [
+                {
+                    "nombre": "imagenes:nave/nave_izquierda_1",
+                    "sprite": "imagenes-nave-nave_izquierda_1"
+                },
+                {
+                    "nombre": "imagenes:nave/nave_izquierda_2",
+                    "sprite": "imagenes-nave-nave_izquierda_2"
+                }
+            ],
+            "velocidad": "20"
+        },
+        {
+            "nombre": "nave_avanzando",
+            "cuadros": [
+                {
+                    "nombre": "imagenes:nave/nave_avanza_1",
+                    "sprite": "imagenes-nave-nave_avanza_1"
+                },
+                {
+                    "nombre": "imagenes:nave/nave_avanza_2",
+                    "sprite": "imagenes-nave-nave_avanza_2"
+                }
+            ],
+            "velocidad": "20"
+        },
+        {
+            "nombre": "nave_en_reposo",
+            "cuadros": [
+                {
+                    "nombre": "imagenes:nave/nave_reposo",
+                    "sprite": "imagenes-nave-nave_reposo"
+                }
+            ],
+            "velocidad": 10
+        },
+        {
+            "nombre": "gallina_vuela",
+            "cuadros": [
+                {
+                    "nombre": "imagenes:gallina/gallina_vuela_1",
+                    "sprite": "imagenes-gallina-gallina_vuela_1"
+                },
+                {
+                    "nombre": "imagenes:gallina/gallina_vuela_2",
+                    "sprite": "imagenes-gallina-gallina_vuela_2"
+                },
+                {
+                    "nombre": "imagenes:gallina/gallina_vuela_3",
+                    "sprite": "imagenes-gallina-gallina_vuela_3"
+                },
+                {
+                    "nombre": "imagenes:gallina/gallina_vuela_2",
+                    "sprite": "imagenes-gallina-gallina_vuela_2"
+                }
+            ],
+            "velocidad": "20"
+        },
+        {
+            "nombre": "nave_avanza",
+            "cuadros": [
+                {
+                    "nombre": "imagenes:nave/nave_avanza_1",
+                    "sprite": "imagenes-nave-nave_avanza_1"
+                },
+                {
+                    "nombre": "imagenes:nave/nave_avanza_2",
+                    "sprite": "imagenes-nave-nave_avanza_2"
+                }
+            ],
+            "velocidad": 10
+        },
+        {
+            "nombre": "conejo_salta",
+            "cuadros": [
+                {
+                    "nombre": "imagenes:conejo/conejo_salta",
+                    "sprite": "imagenes-conejo-conejo_salta"
+                }
+            ],
+            "velocidad": 10
+        },
+        {
+            "nombre": "conejo_parado",
+            "cuadros": [
+                {
+                    "nombre": "imagenes:conejo/conejo_parado1",
+                    "sprite": "imagenes-conejo-conejo_parado1"
+                },
+                {
+                    "nombre": "imagenes:conejo/conejo_parado2",
+                    "sprite": "imagenes-conejo-conejo_parado2"
+                }
+            ],
+            "velocidad": "2"
+        },
+        {
+            "nombre": "conejo_camina",
+            "velocidad": 15,
+            "cuadros": [
+                {
+                    "nombre": "imagenes:conejo/conejo_camina1",
+                    "sprite": "imagenes-conejo-conejo_camina1"
+                },
+                {
+                    "nombre": "imagenes:conejo/conejo_camina2",
+                    "sprite": "imagenes-conejo-conejo_camina2"
+                }
+            ]
+        },
+        {
+            "nombre": "bmo_camina",
+            "velocidad": 15,
+            "cuadros": [
+                {
+                    "nombre": "imagenes:bmo/bmo_camina_1",
+                    "sprite": "imagenes-bmo-bmo_camina_1"
+                },
+                {
+                    "nombre": "imagenes:bmo/bmo_camina_2",
+                    "sprite": "imagenes-bmo-bmo_camina_2"
+                }
+            ]
+        },
+        {
+            "nombre": "bmo_escala",
+            "cuadros": [
+                {
+                    "nombre": "imagenes:bmo/bmo_escala_1",
+                    "sprite": "imagenes-bmo-bmo_escala_1"
+                },
+                {
+                    "nombre": "imagenes:bmo/bmo_escala_2",
+                    "sprite": "imagenes-bmo-bmo_escala_2"
+                }
+            ],
+            "velocidad": 10
+        }
+    ],
+    "codigos": {
+        "escenas": [
+            {
+                "nombre": "vs",
+                "codigo": "class vs extends Escena {\n    reset_press = false;\n    iniciar() {\n        this.pilas.ocultar_cursor();\n        //this.pilas.definir_cursor(\"normal\");\n    }\n\n    actualizar() {\n        //this.dibujar_rectangulo(0, 0, 500, 500, \"naranja\");\n        //let center = this.pilas.obtener_actor_por_nombre(\"center\");\n        //this.camara.x = center.x;\n        //this.camara.y = center.y;\n        if (this.control.tecla_r) {\n            if (this.reset_press == false) {\n                this.reset_press = true;\n                this.pilas.reiniciar_escena();\n            }\n        } else {\n            this.reset_press = false;\n        }\n        if (this.control.tecla_t) {\n            this.camara.escala = 10;\n\n        }\n    }\n}"
+            }
+        ],
+        "actores": [
+            {
+                "nombre": "starship2",
+                "codigo": "// @ts-ignore\nclass starship2 extends Actor {\n    right = false;\n    left = false;\n    up = false;\n    down = false;\n    power = 0.35;\n\n    right_power = 2;\n    left_power = 2;\n    up_power = 2;\n    down_power = 2;\n\n    espejado_press = false;\n\n    shot_delay = 0;\n    shot_press = false;\n\n    spin = 0;\n\n    iniciar() {\n        this.centro_x = 0.4;\n        this.centro_y = 0.5;\n        this.y = 15;\n        this.x = 225;\n        this.espejado = true;\n    }\n\n    actualizar() {\n        if (this.right) {\n            this.x += this.right_power;\n            if (this.right_power < 8) {\n                this.right_power += this.power;\n            }\n        } else if (this.right_power > 2) {\n            this.x += this.right_power;\n            this.right_power -= this.power;\n        }\n\n        if (this.left) {\n            this.x -= this.left_power;\n            if (this.left_power < 8) {\n                this.left_power += this.power;\n            }\n        } else if (this.left_power > 2) {\n            this.x -= this.left_power;\n            this.left_power -= this.power;\n        }\n\n        if (this.up) {\n            this.y += this.up_power;\n            if (this.up_power < 8) {\n                this.up_power += this.power;\n            }\n        } else if (this.up_power > 2) {\n            this.y += this.up_power;\n            this.up_power -= this.power;\n        }\n\n        if (this.down) {\n            this.y -= this.down_power;\n            if (this.down_power < 8) {\n                this.down_power += this.power;\n            }\n        } else if (this.down_power > 2) {\n            this.y -= this.down_power;\n            this.down_power -= this.power;\n        }\n\n        if (this.pilas.control.izquierda) {\n            this.left = true;\n        } else {\n            this.left = false;\n        }\n\n        if (this.pilas.control.derecha) {\n            this.right = true;\n        } else {\n            this.right = false;\n        }\n\n        if (this.pilas.control.abajo) {\n            this.down = true;\n        } else {\n            this.down = false;\n        }\n\n        if (this.pilas.control.arriba) {\n            this.up = true;\n        } else {\n            this.up = false;\n        }\n\n        if (this.control.tecla_l) {\n            if (this.espejado_press == false) {\n                this.espejado_press = true;\n                if (this.espejado) {\n                    this.espejado = false;\n                    this.centro_x = 0.6;\n                } else {\n                    this.espejado = true;\n                    this.centro_x = 0.4;\n                }\n            }\n        } else {\n            this.espejado_press = false;\n        }\n\n        if (this.control.tecla_k) {\n            if (this.shot_delay == 0 && this.shot_press == false) {\n                let bullet = null;\n                if (this.espejado) {\n                    bullet = this.pilas.clonar_en(\"bullet\", this.x - 5, this.y);\n                } else {\n                    bullet = this.pilas.clonar_en(\"bullet\", this.x + 5, this.y);\n                }\n                this.shot_delay = 16;\n                if (this.espejado) {\n                    bullet.motion_x = -20;\n                } else {\n                    bullet.motion_x = 20;\n                }\n                bullet.shoted_by = 2;\n                this.shot_press = true;\n            }\n        } else {\n            this.shot_press = false;\n        }\n        if (this.shot_delay > 0) {\n            this.shot_delay -= 1;\n        }\n\n        if (this.control.tecla_j && this.spin == 0) {\n            this.spin = 1;\n        }\n        if (this.spin > 0) {\n            this.rotacion = this.spin;\n            this.spin += 25;\n            if (this.spin >= 360) {\n                this.rotacion = 0;\n                this.spin = 0;\n            }\n        }\n    }\n}"
+            },
+            {
+                "nombre": "starship1",
+                "codigo": "// @ts-ignore\nclass starship1 extends Actor {\n    right = false;\n    left = false;\n    up = false;\n    down = false;\n    power = 0.35;\n\n    right_power = 2;\n    left_power = 2;\n    up_power = 2;\n    down_power = 2;\n\n    espejado_press = false;\n\n    shot_delay = 0;\n    shot_press = false;\n\n    spin = 0;\n\n    iniciar() {\n        this.centro_x = 0.6;\n        this.centro_y = 0.5;\n        this.y = 15;\n        this.x = -225;\n    }\n\n    actualizar() {\n        if (this.right) {\n            this.x += this.right_power;\n            if (this.right_power < 8) {\n                this.right_power += this.power;\n            }\n        } else if (this.right_power > 2) {\n            this.x += this.right_power;\n            this.right_power -= this.power;\n        }\n\n        if (this.left) {\n            this.x -= this.left_power;\n            if (this.left_power < 8) {\n                this.left_power += this.power;\n            }\n        } else if (this.left_power > 2) {\n            this.x -= this.left_power;\n            this.left_power -= this.power;\n        }\n\n        if (this.up) {\n            this.y += this.up_power;\n            if (this.up_power < 8) {\n                this.up_power += this.power;\n            }\n        } else if (this.up_power > 2) {\n            this.y += this.up_power;\n            this.up_power -= this.power;\n        }\n\n        if (this.down) {\n            this.y -= this.down_power;\n            if (this.down_power < 8) {\n                this.down_power += this.power;\n            }\n        } else if (this.down_power > 2) {\n            this.y -= this.down_power;\n            this.down_power -= this.power;\n        }\n\n        if (this.pilas.control.tecla_a) {\n            this.left = true;\n        } else {\n            this.left = false;\n        }\n\n        if (this.pilas.control.tecla_d) {\n            this.right = true;\n        } else {\n            this.right = false;\n        }\n\n        if (this.pilas.control.tecla_s) {\n            this.down = true;\n        } else {\n            this.down = false;\n        }\n\n        if (this.pilas.control.tecla_w) {\n            this.up = true;\n        } else {\n            this.up = false;\n        }\n\n        if (this.control.tecla_c) {\n            if (this.espejado_press == false) {\n                this.espejado_press = true;\n                if (this.espejado) {\n                    this.espejado = false;\n                    this.centro_x = 0.6;\n                } else {\n                    this.espejado = true;\n                    this.centro_x = 0.4;\n                }\n            }\n        } else {\n            this.espejado_press = false;\n        }\n\n        if (this.control.tecla_v) {\n            if (this.shot_delay == 0 && this.shot_press == false) {\n                let bullet = null;\n                if (this.espejado) {\n                    bullet = this.pilas.clonar_en(\"bullet\", this.x - 5, this.y);\n                } else {\n                    bullet = this.pilas.clonar_en(\"bullet\", this.x + 5, this.y);\n                }\n                this.shot_delay = 16;\n                if (this.espejado) {\n                    bullet.motion_x = -20;\n                } else {\n                    bullet.motion_x = 20;\n                }\n                bullet.shoted_by = 1;\n                this.shot_press = true;\n            }\n        } else {\n            this.shot_press = false;\n        }\n        if (this.shot_delay > 0) {\n            this.shot_delay -= 1;\n        }\n\n        if (this.control.tecla_b && this.spin == 0) {\n            this.spin = 1;\n        }\n        if (this.spin > 0) {\n            this.rotacion = this.spin;\n            this.spin += 25;\n            if (this.spin >= 360) {\n                this.rotacion = 0;\n                this.spin = 0;\n            }\n        }\n    }\n}"
+            },
+            {
+                "nombre": "center",
+                "codigo": "// @ts-ignore\nclass center extends Actor {\n    target = \"center\";\n    iniciar() {}\n\n    actualizar() {\n        let starship1 = this.pilas.obtener_actor_por_nombre(\"starship1\");\n        let starship2 = this.pilas.obtener_actor_por_nombre(\"starship2\");\n        this.x = starship1.x / 2 + starship2.x / 2;\n        this.y = starship1.y / 2 + starship2.y / 2;\n        if (this.target == \"center\") {\n            this.camara.seguir_al_actor(this, 10, true);\n        }\n        if (this.target == \"starship1\") {\n            this.camara.seguir_al_actor(starship1, 10, true);\n        }\n        if (this.target == \"starship2\") {\n            this.camara.seguir_al_actor(starship2, 10, true);\n        }\n    }\n}"
+            },
+            {
+                "nombre": "bullet",
+                "codigo": "// @ts-ignore\nclass bullet extends Actor {\n    motion_x = 0;\n    motion_y = 0;\n    shoted_by = 0;\n    iniciar() {\n        this.pilas.luego(30, () => {\n            this.eliminar();\n        });\n    }\n\n    actualizar() {\n        this.x += this.motion_x;\n        this.y += this.motion_y;\n    }\n    cuando_colisiona(actor: Actor) {\n        let center = this.pilas.obtener_actor_por_nombre(\"center\");\n        if (actor.tiene_etiqueta(\"starship1\") && this.shoted_by == 2 && actor.spin == 0) {\n            this.eliminar();\n            this.pilas.camara.vibrar(2, 0.2)\n            if (center.target == \"center\") {\n                center.target = \"starship2\";\n            }\n            actor.eliminar();\n        }\n        if (actor.tiene_etiqueta(\"starship2\") && this.shoted_by == 1 && actor.spin == 0) {\n            this.eliminar();\n            this.pilas.camara.vibrar(3.5, 0.2)\n            if (center.target == \"center\") {\n                center.target = \"starship1\";\n            }\n            actor.eliminar();\n        }\n        if (actor.tiene_etiqueta(\"bullet\")) {\n            this.eliminar();\n            actor.eliminar();\n            this.pilas.camara.vibrar(2, 0.1)\n        }\n    }\n\n}"
+            }
+        ]
+    },
+    "escenas": [
+        {
+            "nombre": "vs",
+            "id": 1,
+            "ancho": 640,
+            "alto": 480,
+            "camara_x": 0,
+            "camara_y": 0,
+            "gravedad_x": 0,
+            "gravedad_y": 0,
+            "fondo": "background",
+            "actores": [
+                {
+                    "x": 225,
+                    "y": -15,
+                    "z": 0,
+                    "imagen": "shf1",
+                    "centro_x": 0.4,
+                    "centro_y": 0.5,
+                    "rotacion": 0,
+                    "escala_x": 1,
+                    "escala_y": 1,
+                    "transparencia": 0,
+                    "etiqueta": "starship2",
+                    "espejado": true,
+                    "espejado_vertical": false,
+                    "figura": "rectangulo",
+                    "figura_dinamica": false,
+                    "figura_ancho": 30,
+                    "figura_alto": 30,
+                    "figura_radio": 1,
+                    "figura_sin_rotacion": false,
+                    "figura_rebote": 0,
+                    "figura_sensor": false,
+                    "es_texto": false,
+                    "texto_con_borde": false,
+                    "color": "white",
+                    "magnitud": 18,
+                    "id": 11707902479243732,
+                    "activo": true,
+                    "nombre": "starship2",
+                    "habilidades": [],
+                    "sensores": []
+                },
+                {
+                    "x": -225,
+                    "y": -15,
+                    "z": 0,
+                    "imagen": "shf1",
+                    "centro_x": 0.6,
+                    "centro_y": 0.5,
+                    "rotacion": 0,
+                    "escala_x": 1,
+                    "escala_y": 1,
+                    "transparencia": 0,
+                    "etiqueta": "starship1",
+                    "espejado": false,
+                    "espejado_vertical": false,
+                    "figura": "rectangulo",
+                    "figura_dinamica": false,
+                    "figura_ancho": 30,
+                    "figura_alto": 30,
+                    "figura_radio": 1,
+                    "figura_sin_rotacion": false,
+                    "figura_rebote": 0,
+                    "figura_sensor": false,
+                    "es_texto": false,
+                    "texto_con_borde": false,
+                    "color": "white",
+                    "magnitud": 18,
+                    "id": 11467552557048844,
+                    "activo": true,
+                    "nombre": "starship1",
+                    "habilidades": [],
+                    "sensores": []
+                },
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "imagen": "imagenes:basicos/invisible",
+                    "centro_x": 0.5,
+                    "centro_y": 0.5,
+                    "rotacion": 0,
+                    "escala_x": 1,
+                    "escala_y": 1,
+                    "transparencia": 0,
+                    "etiqueta": "actor",
+                    "espejado": false,
+                    "espejado_vertical": false,
+                    "figura": "",
+                    "figura_dinamica": true,
+                    "figura_ancho": 100,
+                    "figura_alto": 100,
+                    "figura_radio": 40,
+                    "figura_sin_rotacion": false,
+                    "figura_rebote": 1,
+                    "figura_sensor": false,
+                    "es_texto": false,
+                    "texto_con_borde": false,
+                    "color": "white",
+                    "magnitud": 18,
+                    "id": 19277132491871456,
+                    "activo": true,
+                    "nombre": "center",
+                    "habilidades": [],
+                    "sensores": []
+                },
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "imagen": "cube",
+                    "centro_x": 0.5,
+                    "centro_y": 0.5,
+                    "rotacion": 0,
+                    "escala_x": 1,
+                    "escala_y": 1,
+                    "transparencia": 0,
+                    "etiqueta": "bullet",
+                    "espejado": false,
+                    "espejado_vertical": false,
+                    "figura": "rectangulo",
+                    "figura_dinamica": false,
+                    "figura_ancho": 10,
+                    "figura_alto": 10,
+                    "figura_radio": 1,
+                    "figura_sin_rotacion": false,
+                    "figura_rebote": 0,
+                    "figura_sensor": false,
+                    "es_texto": false,
+                    "texto_con_borde": false,
+                    "color": "white",
+                    "magnitud": 18,
+                    "id": 11492540486134780,
+                    "activo": false,
+                    "nombre": "bullet",
+                    "habilidades": [],
+                    "sensores": []
+                }
+            ]
+        }
+    ],
+    "fps": 60,
+    "tamaño": "640x480"
+}
