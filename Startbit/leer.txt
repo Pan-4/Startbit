@@ -1,4 +1,4 @@
 la nave 1 se mueve con w a s d y dispara con la v
 la nave 2 se mueve con las flechas y dispara con la k
 
-quiero que al darle a una nave esta se elimine, pero salta error
+quiero que al darle a una nave esta se elimine, pero salta error, la colision esta en el actor "bullet", para ver como funciona documenta donde dice "autor.eliminar()"
